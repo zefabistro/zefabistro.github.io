@@ -1,81 +1,169 @@
 <!DOCTYPE html>
 <html lang="tr">
 <head>
-<meta charset="UTF-8">
-<title>Zefa Bistro Menü</title>
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8">
+  <title>Zefa Bistro Menü</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<style>
-body{
-  font-family: Arial, sans-serif;
-  background:#f2f2f2;
-  margin:0;
-  padding:15px;
-}
-h1{
-  text-align:center;
-}
-.section{
-  background:white;
-  margin:15px auto;
-  padding:15px;
-  max-width:600px;
-  border-radius:10px;
-  box-shadow:0 2px 8px rgba(0,0,0,.1);
-}
-.section h2{
-  background:#0b4dbb;
-  color:white;
-  padding:10px;
-  border-radius:6px;
-  font-size:20px;
-}
-.item{
-  display:flex;
-  justify-content:space-between;
-  padding:6px 0;
-  border-bottom:1px dashed #ccc;
-}
-.item:last-child{border-bottom:none;}
-.price{font-weight:bold;}
-.footer{
-  text-align:center;
-  margin-top:20px;
-  font-weight:bold;
-}
-</style>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f4f4f4;
+      margin: 0;
+      padding: 20px;
+    }
+
+    h1 {
+      text-align: center;
+      color: #111;
+      margin-bottom: 5px;
+    }
+
+    .section {
+      background: #fff;
+      margin: 20px auto;
+      padding: 15px;
+      max-width: 700px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+
+    .section h2 {
+      border-bottom: 2px solid #eee;
+      padding-bottom: 5px;
+      color: #e63946;
+    }
+
+    .item {
+      display: flex;
+      justify-content: space-between;
+      padding: 6px 0;
+      border-bottom: 1px dashed #ddd;
+    }
+
+    .item:last-child {
+      border-bottom: none;
+    }
+
+    .price {
+      font-weight: bold;
+    }
+
+    .buttons {
+      text-align: center;
+      margin: 30px 0;
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 15px 25px;
+      margin: 10px;
+      font-size: 18px;
+      font-weight: bold;
+      border-radius: 10px;
+      text-decoration: none;
+      color: #fff;
+    }
+
+    .call {
+      background: #e63946;
+    }
+
+    .map {
+      background: #1d3557;
+    }
+
+    footer {
+      text-align: center;
+      margin-top: 30px;
+      font-weight: bold;
+    }
+  </style>
 </head>
 
 <body>
 
 <h1>ZEFA BISTRO</h1>
 
+<!-- PIZZA -->
 <div class="section">
-<h2>🍕 Pizza Menüleri</h2>
-<div class="item"><span>Karışık Pizza Menü</span><span class="price">300 TL</span></div>
-<div class="item"><span>Sucuk Sever Pizza Menü</span><span class="price">300 TL</span></div>
-<div class="item"><span>Kavurmalı Pizza Menü</span><span class="price">350 TL</span></div>
-<div class="item"><span>Margarita Pizza Menü</span><span class="price">300 TL</span></div>
-<div class="item"><span>3 Peynirli Pizza Menü</span><span class="price">300 TL</span></div>
-<div class="item"><span>Çıtır Tavuklu Pizza Menü</span><span class="price">330 TL</span></div>
+  <h2>🍕 Pizza Menüler</h2>
+  <div class="item"><span>Karışık Pizza Menü</span><span class="price">300 TL</span></div>
+  <div class="item"><span>Sucuk Sever Pizza Menü</span><span class="price">300 TL</span></div>
+  <div class="item"><span>Kavurmalı Pizza Menü</span><span class="price">350 TL</span></div>
+  <div class="item"><span>Margarita Pizza Menü</span><span class="price">300 TL</span></div>
+  <div class="item"><span>3 Peynirli Pizza Menü</span><span class="price">300 TL</span></div>
+  <div class="item"><span>Çıtır Tavuklu Pizza Menü</span><span class="price">330 TL</span></div>
 </div>
 
+<!-- HAMBURGER -->
 <div class="section">
-<h2>🍔 Hamburger Menüleri</h2>
-<div class="item"><span>Et Burger Menü</span><span class="price">300 TL</span></div>
-<div class="item"><span>Double Et Burger Menü</span><span class="price">380 TL</span></div>
-<div class="item"><span>Chesse Burger Menü</span><span class="price">310 TL</span></div>
-<div class="item"><span>Barbekü Burger Menü</span><span class="price">300 TL</span></div>
-<div class="item"><span>Chicken Burger Menü</span><span class="price">240 TL</span></div>
-<div class="item"><span>Double Chicken Burger Menü</span><span class="price">330 TL</span></div>
+  <h2>🍔 Hamburger Menüler</h2>
+  <div class="item"><span>Et Burger Menü</span><span class="price">300 TL</span></div>
+  <div class="item"><span>Double Et Burger Menü</span><span class="price">380 TL</span></div>
+  <div class="item"><span>Chesse Burger Menü</span><span class="price">310 TL</span></div>
+  <div class="item"><span>Barbekü Burger Menü</span><span class="price">300 TL</span></div>
+  <div class="item"><span>Chicken Burger Menü</span><span class="price">240 TL</span></div>
+  <div class="item"><span>Double Chicken Burger Menü</span><span class="price">330 TL</span></div>
 </div>
 
+<!-- IZGARA DÜRÜM -->
 <div class="section">
-<h2>🎓 Öğrenci & Big Menü</h2>
-<div class="item"><span>Tavuk Dürüm + Ayran</span><span class="price">90 TL</span></div>
-<div class="item"><span>Öğrenci Menü (Patates + Tavuk Dürüm + Şişe Kola)</span><span class="price">250 TL</span></div>
-<div class="item"><span>Big Menü (Patates + Tavuk Dürüm + Kutu Kola)</span><span class="price">290 TL</span></div>
+  <h2>🌯 Dürüm</h2>
+  <div class="item"><span>Adana Dürüm</span><span class="price">120 TL</span></div>
+  <div class="item"><span>Tavuk Şiş Dürüm</span><span class="price">100 TL</span></div>
+  <div class="item"><span>Kuşbaşı Et Dürüm</span><span class="price">140 TL</span></div>
+  <div class="item"><span>Köfte Ekmek</span><span class="price">140 TL</span></div>
 </div>
+
+<!-- PORSIYON -->
+<div class="section">
+  <h2>🍽️ Porsiyon</h2>
+  <div class="item"><span>Adana Porsiyon</span><span class="price">275 TL</span></div>
+  <div class="item"><span>Tavuk Şiş Porsiyon</span><span class="price">250 TL</span></div>
+  <div class="item"><span>Köfte Porsiyon</span><span class="price">300 TL</span></div>
+  <div class="item"><span>Kuşbaşı Porsiyon</span><span class="price">350 TL</span></div>
+</div>
+
+<!-- KILO -->
+<div class="section">
+  <h2>🔥 Kilo ile Pişirim</h2>
+  <div class="item"><span>Kelebek 1 kg</span><span class="price">450 TL</span></div>
+  <div class="item"><span>Tavuk Kanat 1 kg</span><span class="price">600 TL</span></div>
+  <div class="item"><span>Tavuk Şiş 1 kg</span><span class="price">450 TL</span></div>
+  <div class="item"><span>Köfte 1 kg</span><span class="price">1100 TL</span></div>
+</div>
+
+<!-- APERATIF -->
+<div class="section">
+  <h2>🍟 Aperatifler</h2>
+  <div class="item"><span>Soğan Halkası</span><span class="price">80 TL</span></div>
+  <div class="item"><span>Patates Kızartması</span><span class="price">80 TL</span></div>
+  <div class="item"><span>Nugget</span><span class="price">80 TL</span></div>
+  <div class="item"><span>Sigara Böreği Peynirli</span><span class="price">80 TL</span></div>
+  <div class="item"><span>Sigara Böreği Patatesli</span><span class="price">80 TL</span></div>
+</div>
+
+<!-- TATLI -->
+<div class="section">
+  <h2>🍰 Tatlı Çeşitleri</h2>
+  <div class="item"><span>Künefe</span><span class="price">200 TL</span></div>
+  <div class="item"><span>Sufle</span><span class="price">120 TL</span></div>
+  <div class="item"><span>Puding</span><span class="price">50 TL</span></div>
+  <div class="item"><span>Katmer</span><span class="price">200 TL</span></div>
+</div>
+
+<!-- BUTONLAR -->
+<div class="buttons">
+  <a href="tel:05016334270" class="btn call">📞 Alo Sipariş</a>
+  <a href="https://www.google.com/maps/search/?api=1&query=Osmangazi+Mahallesi+Yavuz+Sultan+Selim+Bulvarı+24/B"
+     target="_blank" class="btn map">📍 Haritada Göster</a>
+</div>
+
+<footer>
+  Servis ücreti: 15 TL<br>
+  Osmangazi Mahallesi Yavuz Sultan Selim Bulvarı 24/B
+</footer>
 
 </body>
 </html>
